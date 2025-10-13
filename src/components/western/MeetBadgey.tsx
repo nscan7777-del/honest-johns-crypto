@@ -33,6 +33,10 @@ const MeetBadgey = () => {
                 Chat with Badgey
               </a>
             </Button>
+
+            <p className="font-playfair text-xl text-primary italic text-center mt-3">
+              Your honest partner in every build, every audit, every launch.
+            </p>
           </div>
 
           {/* Right: Badgey Image */}
