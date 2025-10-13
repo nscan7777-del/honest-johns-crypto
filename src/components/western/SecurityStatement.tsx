@@ -21,6 +21,14 @@ const SecurityStatement = () => {
             protecting your projects, your data, and your peace of mind.
           </p>
         </div>
+        
+        {/* Subtle divider */}
+        <div className="w-full max-w-md mx-auto h-px bg-primary/30 mt-12 mb-6"></div>
+        
+        {/* Community text */}
+        <p className="font-inter text-base italic font-medium text-[#3b2b1b] text-center py-6">
+          Join our growing community on Telegram and X — the frontier of honest crypto innovation.
+        </p>
       </div>
     </section>
   );
