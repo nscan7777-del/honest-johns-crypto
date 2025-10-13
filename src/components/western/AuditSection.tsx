@@ -46,6 +46,11 @@ const AuditSection = () => {
                 <p className="font-inter text-foreground">Verified by industry experts</p>
               </div>
             </div>
+
+            <p className="font-inter text-base text-muted-foreground leading-relaxed italic mt-6 pt-6 border-t border-border/30">
+              The HON Score automatically reflects your project's trust level — from liquidity safety to contract security and verified ownership. 
+              Projects with strong safety measures and verified audits earn the highest trust tier, displaying the full Honest John's Gold Badge of Approval.
+            </p>
           </div>
         </div>
       </div>
