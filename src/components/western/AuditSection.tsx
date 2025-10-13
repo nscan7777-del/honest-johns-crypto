@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Shield } from "lucide-react";
 import honScoreBadge from "@/assets/hon-score-badge.png";
 
@@ -47,17 +46,6 @@ const AuditSection = () => {
                 <p className="font-inter text-foreground">Verified by industry experts</p>
               </div>
             </div>
-
-            <Button 
-              variant="gold" 
-              size="lg" 
-              className="text-lg px-8 py-6 font-bold mt-4"
-              asChild
-            >
-              <a href="https://app.honestjohnscrypto.world/audit" target="_blank" rel="noopener noreferrer">
-                Get Your Audit
-              </a>
-            </Button>
           </div>
         </div>
       </div>
