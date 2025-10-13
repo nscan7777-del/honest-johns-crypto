@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Copy, Wallet } from "lucide-react";
+import { Copy } from "lucide-react";
 import badgeyMascot from "@/assets/badgey-mascot.png";
 import { toast } from "sonner";
 
@@ -54,11 +54,39 @@ const Hero = () => {
             </button>
           </div>
 
-          {/* CTA Button */}
-          <Button variant="gold" size="lg" className="text-lg px-8 py-6 mt-4">
-            <Wallet className="w-5 h-5" />
-            Connect Wallet
-          </Button>
+          {/* Main CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 mt-4">
+            <Button 
+              variant="gold" 
+              size="lg" 
+              className="text-lg px-8 py-6 font-bold"
+              asChild
+            >
+              <a href="https://app.honestjohnscrypto.world/token" target="_blank" rel="noopener noreferrer">
+                Build My Token
+              </a>
+            </Button>
+            <Button 
+              variant="gold" 
+              size="lg" 
+              className="text-lg px-8 py-6 font-bold"
+              asChild
+            >
+              <a href="https://app.honestjohnscrypto.world/audit" target="_blank" rel="noopener noreferrer">
+                Get Your Audit
+              </a>
+            </Button>
+            <Button 
+              variant="gold" 
+              size="lg" 
+              className="text-lg px-8 py-6 font-bold"
+              asChild
+            >
+              <a href="https://app.honestjohnscrypto.world/builder" target="_blank" rel="noopener noreferrer">
+                Build My Website
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
 
