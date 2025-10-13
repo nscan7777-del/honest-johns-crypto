@@ -81,7 +81,7 @@ const Hero = () => {
             size="lg" 
             className="text-lg px-8 py-6 font-bold rounded-2xl"
           >
-            Connect Wallet
+            Connect Solana Wallet
           </Button>
 
           {/* Wallet Connection Note */}
