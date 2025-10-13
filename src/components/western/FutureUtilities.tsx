@@ -2,12 +2,6 @@ import { Sparkles, Rocket, Wallet2 } from "lucide-react";
 
 const utilities = [
   {
-    icon: Sparkles,
-    title: "Website Builder",
-    description: "Launch a professional crypto project site in minutes",
-    status: "",
-  },
-  {
     icon: Rocket,
     title: "Launchpad",
     description: "Fair launch platform with built-in security features",
@@ -34,7 +28,7 @@ const FutureUtilities = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {utilities.map((utility, index) => (
             <div 
               key={index}
