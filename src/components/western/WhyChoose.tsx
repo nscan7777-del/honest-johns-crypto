@@ -26,7 +26,7 @@ const WhyChoose = () => {
           Why Choose Honest John's
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-y-8 gap-x-7">
           {pillars.map((pillar, index) => (
             <div 
               key={index}
