@@ -9,7 +9,7 @@ const pillars = [
   {
     icon: Lock,
     title: "SAFETY",
-    description: "Liquidity locks",
+    description: "Smart contract protection and secure launches",
   },
   {
     icon: Lightbulb,
