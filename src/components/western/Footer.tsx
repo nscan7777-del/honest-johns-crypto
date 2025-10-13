@@ -44,6 +44,9 @@ const Footer = () => {
             <p className="font-inter text-sm text-secondary-foreground/70 mb-4">
               <strong>Tip:</strong> Use your browser's menu to "Add to Home Screen" for quick access
             </p>
+            <p className="font-inter text-sm italic text-secondary-foreground/70 mb-4">
+              All systems are continuously upgraded for maximum safety and performance.
+            </p>
             <p className="font-inter text-sm text-secondary-foreground/50">
               © {currentYear} HONEST JOHN'S CRYPTO WORLD. All rights reserved.
             </p>

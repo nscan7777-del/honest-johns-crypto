@@ -54,13 +54,13 @@ const Hero = () => {
               HONEST JOHN'S<br />CRYPTO WORLD
             </h1>
             <p className="font-playfair text-2xl md:text-3xl text-muted-foreground italic">
-              Taming the Wild West of Crypto
+              Taming the Wild West of Crypto — One Honest Project at a Time
             </p>
           </div>
 
           {/* Sub-headline */}
           <p className="font-inter text-lg md:text-xl text-foreground/80 max-w-2xl leading-relaxed">
-            Security-First Architecture for the Next Generation of Honest Projects
+            Built on Security-First Architecture, Backed by Trust, and Powered by Badgey.
           </p>
 
           {/* Contract Address */}
