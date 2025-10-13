@@ -3,6 +3,8 @@ import WhyChoose from "@/components/western/WhyChoose";
 import BuildAuditWebsite from "@/components/western/BuildAuditWebsite";
 import MeetBadgey from "@/components/western/MeetBadgey";
 import AuditSection from "@/components/western/AuditSection";
+import TokenMaker from "@/components/western/TokenMaker";
+import WebsiteBuilder from "@/components/western/WebsiteBuilder";
 import FutureUtilities from "@/components/western/FutureUtilities";
 import Footer from "@/components/western/Footer";
 
@@ -14,6 +16,8 @@ const Index = () => {
       <BuildAuditWebsite />
       <MeetBadgey />
       <AuditSection />
+      <TokenMaker />
+      <WebsiteBuilder />
       <FutureUtilities />
       <Footer />
     </main>
