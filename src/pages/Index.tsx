@@ -2,6 +2,7 @@ import Hero from "@/components/western/Hero";
 import WhyChoose from "@/components/western/WhyChoose";
 import BuildAuditWebsite from "@/components/western/BuildAuditWebsite";
 import MeetBadgey from "@/components/western/MeetBadgey";
+import AuditFeature from "@/components/western/AuditFeature";
 import AuditSection from "@/components/western/AuditSection";
 import TokenMaker from "@/components/western/TokenMaker";
 import WebsiteBuilder from "@/components/western/WebsiteBuilder";
@@ -16,6 +17,7 @@ const Index = () => {
       <WhyChoose />
       <BuildAuditWebsite />
       <MeetBadgey />
+      <AuditFeature />
       <AuditSection />
       <TokenMaker />
       <WebsiteBuilder />
