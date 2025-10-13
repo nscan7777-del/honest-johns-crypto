@@ -75,6 +75,20 @@ const Hero = () => {
             </button>
           </div>
 
+          {/* Connect Wallet Button */}
+          <Button 
+            variant="gold" 
+            size="lg" 
+            className="text-lg px-8 py-6 font-bold rounded-2xl"
+          >
+            Connect Wallet
+          </Button>
+
+          {/* Wallet Connection Note */}
+          <p className="text-sm font-inter italic font-medium text-center py-2" style={{ color: '#4b3b2a', opacity: 0.7 }}>
+            Solana wallet connection coming soon — full integration will go live before launch.
+          </p>
+
           {/* Main CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <Button 
