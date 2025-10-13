@@ -5,13 +5,13 @@ const utilities = [
     icon: Sparkles,
     title: "Website Builder",
     description: "Launch a professional crypto project site in minutes",
-    status: "Available Now",
+    status: "",
   },
   {
     icon: Rocket,
     title: "Launchpad",
     description: "Fair launch platform with built-in security features",
-    status: "Coming Soon",
+    status: "In Development",
   },
   {
     icon: Wallet2,
@@ -41,9 +41,11 @@ const FutureUtilities = () => {
               className="relative p-8 bg-card border border-border rounded-2xl shadow-[var(--shadow-western)] hover:shadow-[var(--shadow-gold)] transition-all duration-300 overflow-hidden group"
             >
               {/* Status badge */}
-              <div className="absolute top-4 right-4 px-3 py-1 bg-primary/10 border border-primary/30 rounded-full">
-                <span className="font-inter text-xs font-semibold text-primary">{utility.status}</span>
-              </div>
+              {utility.status && (
+                <div className="absolute top-4 right-4 px-3 py-1 bg-primary/10 border border-primary/30 rounded-full">
+                  <span className="font-inter text-xs font-semibold text-primary">{utility.status}</span>
+                </div>
+              )}
 
               {/* Icon */}
               <div className="w-16 h-16 mb-6 flex items-center justify-center bg-primary/10 rounded-xl group-hover:bg-primary/20 transition-colors">
