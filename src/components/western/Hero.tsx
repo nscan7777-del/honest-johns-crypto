@@ -16,6 +16,27 @@ const Hero = () => {
       {/* Subtle rope divider at top */}
       <div className="absolute top-0 left-0 right-0 h-1 opacity-30" style={{ background: 'var(--gradient-rope)' }}></div>
       
+      {/* Sign In / Sign Up Links */}
+      <div className="absolute top-6 right-6 flex items-center gap-4 text-sm font-inter">
+        <a 
+          href="https://app.honestjohnscrypto.world/login" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-[#3b2b1b] hover:underline transition-all"
+        >
+          Sign In
+        </a>
+        <span className="text-[#3b2b1b] opacity-50">|</span>
+        <a 
+          href="https://app.honestjohnscrypto.world/register" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-[#3b2b1b] hover:underline transition-all"
+        >
+          Sign Up
+        </a>
+      </div>
+
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col items-center text-center space-y-8">
           {/* Badgey Mascot */}
