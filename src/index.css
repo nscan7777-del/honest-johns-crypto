@@ -8,43 +8,47 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+    /* Warm parchment-to-sandstone palette */
+    --background: 38 50% 97%;
+    --background-secondary: 38 35% 95%;
+    --foreground: 30 30% 12%;
 
-    --card: 240 10% 7%;
-    --card-foreground: 0 0% 98%;
+    --card: 38 50% 98%;
+    --card-foreground: 30 30% 12%;
 
-    --popover: 240 10% 7%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 38 50% 98%;
+    --popover-foreground: 30 30% 12%;
 
-    --primary: 263 70% 50%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 263 70% 65%;
+    /* Muted gold primary */
+    --primary: 45 66% 52%;
+    --primary-foreground: 30 30% 12%;
 
-    --secondary: 217 91% 60%;
-    --secondary-foreground: 0 0% 100%;
+    /* Deep warm brown secondary */
+    --secondary: 30 35% 17%;
+    --secondary-foreground: 38 50% 97%;
 
-    --muted: 240 5% 15%;
-    --muted-foreground: 240 5% 65%;
+    --muted: 38 25% 88%;
+    --muted-foreground: 30 20% 40%;
 
-    --accent: 45 93% 58%;
-    --accent-foreground: 240 10% 3.9%;
+    --accent: 45 66% 52%;
+    --accent-foreground: 30 30% 12%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 38 50% 97%;
 
-    --border: 240 5% 15%;
-    --input: 240 5% 15%;
-    --ring: 263 70% 50%;
+    --border: 45 30% 85%;
+    --input: 45 30% 85%;
+    --ring: 45 66% 52%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
     
-    --gradient-primary: linear-gradient(135deg, hsl(263 70% 50%) 0%, hsl(217 91% 60%) 100%);
-    --gradient-hero: linear-gradient(180deg, hsl(240 10% 3.9%) 0%, hsl(263 70% 15%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(240 10% 7% / 0.8) 0%, hsl(263 70% 15% / 0.6) 100%);
+    /* Western-themed gradients */
+    --gradient-parchment: linear-gradient(180deg, hsl(38 50% 97%) 0%, hsl(38 35% 95%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(45 66% 52%) 0%, hsl(45 60% 45%) 100%);
+    --gradient-rope: repeating-linear-gradient(90deg, hsl(45 66% 52% / 0.3) 0px, transparent 2px, transparent 6px, hsl(45 66% 52% / 0.3) 8px);
     
-    --shadow-glow: 0 0 60px hsl(263 70% 50% / 0.3);
-    --shadow-card: 0 10px 40px hsl(240 10% 3.9% / 0.5);
+    --shadow-western: 0 4px 12px hsl(30 30% 12% / 0.15);
+    --shadow-gold: 0 0 20px hsl(45 66% 52% / 0.3);
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
