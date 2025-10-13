@@ -63,6 +63,10 @@ const FutureUtilities = () => {
             </div>
           ))}
         </div>
+
+        <p className="font-inter text-base md:text-lg text-[#3b2b1b] italic font-medium text-center max-w-4xl mx-auto mt-12">
+          ...and that's just the beginning. As Honest John's Crypto World grows, new utilities and features will continue to be added — each designed to make launching and managing tokens safer, smarter, and more powerful.
+        </p>
       </div>
     </section>
   );

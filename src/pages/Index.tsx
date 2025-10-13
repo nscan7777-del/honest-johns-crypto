@@ -6,6 +6,7 @@ import AuditSection from "@/components/western/AuditSection";
 import TokenMaker from "@/components/western/TokenMaker";
 import WebsiteBuilder from "@/components/western/WebsiteBuilder";
 import FutureUtilities from "@/components/western/FutureUtilities";
+import SecurityStatement from "@/components/western/SecurityStatement";
 import Footer from "@/components/western/Footer";
 
 const Index = () => {
@@ -19,6 +20,7 @@ const Index = () => {
       <TokenMaker />
       <WebsiteBuilder />
       <FutureUtilities />
+      <SecurityStatement />
       <Footer />
     </main>
   );
