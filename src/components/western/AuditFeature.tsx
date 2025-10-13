@@ -50,9 +50,9 @@ const AuditFeature = () => {
             </ul>
 
             <Button 
-              variant="gold" 
-              size="lg" 
-              className="text-lg px-8 py-6 font-bold"
+              variant="outline-gold" 
+              size="default" 
+              className="font-semibold"
               asChild
             >
               <a href="https://app.honestjohnscrypto.world/audit" target="_blank" rel="noopener noreferrer">

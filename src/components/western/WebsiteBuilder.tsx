@@ -32,9 +32,9 @@ const WebsiteBuilder = () => {
               Build trust, attract investors, and stand out with style.
             </p>
             <Button 
-              variant="gold" 
-              size="lg" 
-              className="text-lg px-8 py-6 font-bold"
+              variant="outline-gold" 
+              size="default" 
+              className="font-semibold"
               asChild
             >
               <a href="https://app.honestjohnscrypto.world/builder" target="_blank" rel="noopener noreferrer">

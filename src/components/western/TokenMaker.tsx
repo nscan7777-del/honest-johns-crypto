@@ -31,9 +31,9 @@ const TokenMaker = () => {
               Every token includes optional safety features like revoke, freeze, mint, and update — so you launch with confidence in the Wild West of crypto.
             </p>
             <Button 
-              variant="gold" 
-              size="lg" 
-              className="text-lg px-8 py-6 font-bold"
+              variant="outline-gold" 
+              size="default" 
+              className="font-semibold"
               asChild
             >
               <a href="https://app.honestjohnscrypto.world/token" target="_blank" rel="noopener noreferrer">
