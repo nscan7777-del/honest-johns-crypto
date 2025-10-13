@@ -48,8 +48,15 @@ const AuditSection = () => {
               </div>
             </div>
 
-            <Button variant="gold" size="lg" className="text-lg px-8 py-6 mt-4">
-              Get Your Audit
+            <Button 
+              variant="gold" 
+              size="lg" 
+              className="text-lg px-8 py-6 font-bold mt-4"
+              asChild
+            >
+              <a href="https://app.honestjohnscrypto.world/audit" target="_blank" rel="noopener noreferrer">
+                Get Your Audit
+              </a>
             </Button>
           </div>
         </div>

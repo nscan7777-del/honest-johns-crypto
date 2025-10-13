@@ -73,7 +73,7 @@ const Hero = () => {
               asChild
             >
               <a href="https://app.honestjohnscrypto.world/audit" target="_blank" rel="noopener noreferrer">
-                Get Your Audit
+                Get My Audit
               </a>
             </Button>
             <Button 

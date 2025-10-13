@@ -18,8 +18,8 @@ const MeetBadgey = () => {
             </p>
 
             <p className="font-inter text-lg text-muted-foreground leading-relaxed">
-              Our AI-powered cowboy assistant is ready to help you build, audit, or design your token project. 
-              Ask anything — Badgey's here 24/7 with honest answers.
+              Our AI-powered cowboy assistant is ready to help you build, audit, and design your project website. 
+              Ask anything — Badgey's here 24/7 with honest answers and friendly advice.
             </p>
 
             <Button 
