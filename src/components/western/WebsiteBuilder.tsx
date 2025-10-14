@@ -24,12 +24,10 @@ const WebsiteBuilder = () => {
               Your Website, Your Story
             </h2>
             <p className="font-playfair text-xl md:text-2xl text-muted-foreground italic">
-              Create a professional project site — no code required.
+              Create a professional site — no code required.
             </p>
             <p className="font-inter text-lg text-foreground/80 leading-relaxed">
-              Our Website Builder gives every project a home. 
-              Generate your own crypto website using simple AI prompts, instantly branded with your token info, audit badge, and links to Telegram and X. 
-              Build trust, attract investors, and stand out with style.
+              Our Website Builder gives every idea a home. Generate a beautiful website for anything — small businesses, creators, communities, nonprofits, portfolios, and crypto projects — using simple or long AI prompts. Instantly brand it with your logo and colors, add social links (Telegram, X, Instagram, YouTube), and launch with a fast, mobile-first design that builds trust from day one.
             </p>
             <Button 
               variant="outline-gold" 
