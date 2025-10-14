@@ -42,13 +42,13 @@ const Footer = () => {
           {/* Tip */}
           <div className="text-center border-t border-secondary-foreground/20 pt-6">
             <p className="font-inter text-sm text-secondary-foreground/70 mb-4">
-              <strong>Tip:</strong> Use your browser's menu to "Add to Home Screen" for quick access
+              <strong>Tip:</strong> Use your browser's menu to 'Add to Home Screen' for quick access.
             </p>
-            <p className="font-inter text-sm italic mb-4" style={{ color: '#b8902e', opacity: 0.8 }}>
-              All systems are continuously upgraded for maximum safety and performance.
+            <p className="font-inter text-sm text-secondary-foreground/70 mb-4">
+              Built with security-first architecture and a touch of cowboy honesty 🤠
             </p>
             <p className="font-inter text-sm text-secondary-foreground/50">
-              © {currentYear} HONEST JOHN'S CRYPTO WORLD. All rights reserved.
+              © 2025 Honest John's Crypto World. All rights reserved.
             </p>
           </div>
         </div>
