@@ -4,13 +4,13 @@ const utilities = [
   {
     icon: Rocket,
     title: "Launchpad",
-    description: "Fair launch platform with built-in security features",
+    description: "Fair-launch platform with built-in safety features.",
     status: "In Development",
   },
   {
     icon: Wallet2,
     title: "Honest Wallet",
-    description: "Your secure gateway to the honest crypto ecosystem",
+    description: "Your secure gateway to the Honest ecosystem.",
     status: "In Development",
   },
 ];
@@ -24,7 +24,7 @@ const FutureUtilities = () => {
             New Utilities on the Horizon
           </h2>
           <p className="font-inter text-xl text-muted-foreground max-w-2xl mx-auto">
-            Each month we roll out new tools to keep your project growing—starting with our Website Builder, then Launchpad, and finally the Honest Wallet
+            We're continually rolling out new tools to help your project grow — next up: our Launchpad and the Honest Wallet.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ const FutureUtilities = () => {
         </div>
 
         <p className="font-inter text-base md:text-lg text-[#3b2b1b] italic font-medium text-center max-w-4xl mx-auto mt-12">
-          ...and that's just the beginning. As Honest John's Crypto World grows, new utilities and features will continue to be added — each designed to make launching and managing tokens safer, smarter, and more powerful.
+          …and that's just the beginning. As Honest John's Crypto World grows, new utilities and features will continue to be added — each designed to make launching and managing projects safer, smarter, and more powerful.
         </p>
       </div>
     </section>
