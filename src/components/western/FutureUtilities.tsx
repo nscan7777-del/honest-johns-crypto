@@ -60,9 +60,14 @@ const FutureUtilities = () => {
           ))}
         </div>
 
-        <p className="font-inter text-base md:text-lg text-[#3b2b1b] italic font-medium text-center max-w-4xl mx-auto mt-12">
-          …and that's just the beginning. As Honest John's Crypto World grows, new utilities and features will continue to be added — each designed to make launching and managing projects safer, smarter, and more powerful.
-        </p>
+        <div className="text-center max-w-4xl mx-auto mt-12 space-y-3">
+          <h3 className="font-playfair text-2xl md:text-3xl font-bold text-foreground">
+            Platform Growth
+          </h3>
+          <p className="font-inter text-base md:text-lg text-foreground/80 leading-relaxed">
+            We're building for the long trail ahead. Each update to Honest John's Crypto World expands the ecosystem with more tools, stronger security, and smoother performance. From the Token Builder to the upcoming Launchpad and Honest Wallet, everything is designed to work together — giving builders and investors a trusted, ever-evolving home in the Wild West of crypto.
+          </p>
+        </div>
       </div>
     </section>
   );
