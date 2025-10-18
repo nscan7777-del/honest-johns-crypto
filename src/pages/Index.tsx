@@ -9,7 +9,7 @@ import WebsiteBuilder from "@/components/western/WebsiteBuilder";
 import FutureUtilities from "@/components/western/FutureUtilities";
 import SecurityStatement from "@/components/western/SecurityStatement";
 import Footer from "@/components/western/Footer";
-
+import { Link } from "react-router-dom";
 const Index = () => {
   return (
     <main className="min-h-screen" style={{ background: 'var(--gradient-parchment)' }}>
@@ -19,7 +19,11 @@ const Index = () => {
       <MeetBadgey />
       <AuditFeature />
       <AuditSection />
-      <TokenMaker />
+      <Link to="/token-maker">
+  <button className="bg-[#c39b63] hover:bg-[#a98450] text-white font-bold py-3 px-6 rounded">
+    Build My Token
+  </button>
+</Link>
       <WebsiteBuilder />
       <FutureUtilities />
       <SecurityStatement />
