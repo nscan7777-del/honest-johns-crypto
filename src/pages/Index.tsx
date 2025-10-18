@@ -19,11 +19,14 @@ const Index = () => {
       <MeetBadgey />
       <AuditFeature />
       <AuditSection />
-      <Link to="/token-maker">
-  <button className="bg-[#c39b63] hover:bg-[#a98450] text-white font-bold py-3 px-6 rounded">
+<div style={{ display: "flex", justifyContent: "center", margin: "1.25rem 0" }}>
+  <a
+    href="/token-maker"
+    className="bg-[#c39b63] hover:bg-[#a98450] text-white font-bold py-3 px-6 rounded"
+  >
     Build My Token
-  </button>
-</Link>
+  </a>
+</div>
       <WebsiteBuilder />
       <FutureUtilities />
       <SecurityStatement />
