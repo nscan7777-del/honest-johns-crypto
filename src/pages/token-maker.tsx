@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { supabase } from "../lib/supabaseClient";
-
+// minor edit to trigger commit
 export default function TokenMaker() {
   const [tokenName, setTokenName] = useState("");
   const [symbol, setSymbol] = useState("");
