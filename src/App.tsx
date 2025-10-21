@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import TokenMaker from "./pages/token-maker";
+import SolanaWalletProvider from "./providers/WalletProvider";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -13,6 +14,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      </SolanaWalletProvider>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
@@ -21,6 +23,7 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
+    </SolanaWalletProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );
