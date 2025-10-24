@@ -27,13 +27,11 @@ export default function Navbar() {
         <Link to="/" className="font-semibold tracking-tight">
           Honest John’s
         </Link>
-
         <nav className="hidden gap-6 md:flex">
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/create-token">Build My Token</NavLink>
+          <NavLink to="/token-maker">Build My Token</NavLink>
           <NavLink to="/audit">Get My Audit</NavLink>
         </nav>
-
         <Button
           size="sm"
           onClick={() => alert("Wallet connect coming soon (UI only).")}
