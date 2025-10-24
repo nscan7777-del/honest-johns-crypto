@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import NotFound from "./pages/NotFound";
 import TokenMaker from "./pages/token-maker";
 import SolanaWalletProvider from "./providers/WalletProvider";
+import Footer from "./components/Footer";
 const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
+     <Footer />
     </SolanaWalletProvider>
     </TooltipProvider>
   </QueryClientProvider>
